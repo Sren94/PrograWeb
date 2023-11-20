@@ -1,0 +1,22 @@
+:root {   
+    --main-bg-color:#FFFFFF;
+    --bg-color:  #E5E5E5;    
+    --bg-color-secondary:#B01223;
+    --text-color-primary: #000000;
+    --text-color-secondary: #F2F2F2;
+
+  }
+.navbar
+{
+    background: var(--main-bg-color);   
+    border-radius: 10px;
+}
+a
+{
+  border-radius: 10px;
+}
+.navbar a:hover
+{
+  background-color: var(--bg-color-secondary);
+  color: var(--text-color-secondary);
+}

@@ -1,0 +1,14 @@
+
+:root {   
+    --main-bg-color:#FFFFFF;
+    --bg-color:  #E5E5E5;    
+    --bg-color-secondary:#B01223;
+    --text-color-primary: #000000;
+    --text-color-secondary: #F2F2F2;
+
+  }
+
+  .container
+  {
+    background-color: var(--bg-color);
+  }

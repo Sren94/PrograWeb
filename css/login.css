@@ -1,0 +1,24 @@
+
+:root {   
+    --main-bg-color:#FFFFFF;
+    --bg-color:  #E5E5E5;    
+    --bg-color-secondary:#B01223;
+    --text-color-primary: #000000;
+    --text-color-secondary: #F2F2F2;
+    --text-color-ter: #B01223;
+}
+.form{
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    color: var(--text-color-ter);
+}
+
+.error1,.error2,.error3
+{
+    background-color: var(--bg-color-secondary);
+    color: var(--text-color-secondary);
+    border-radius: 10px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: none;
+}
