@@ -30,9 +30,9 @@ if ($encontrado) {
             header('location: ../Adm2/homeEscritor.php');
          }elseif ($rol=='administrador') {
             header('location: ../Adm1/homeAdmin.php');
-         }else {
-             header ('Location: ../index.php');
-         };
-    }
+         }
+    }else {
+        header ('Location: ../index.php');
+    };
 }
 ?>
