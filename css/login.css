@@ -7,6 +7,10 @@
     --text-color-secondary: #F2F2F2;
     --text-color-ter: #B01223;
 }
+body
+{
+    background: var(--text-color-secondary);
+}
 .form{
     background-color: var(--bg-color);
     border-radius: 20px;
