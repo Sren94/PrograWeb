@@ -30,7 +30,7 @@
                         <img src="./img/logoN.svg" width="30" height="30" alt="" loading="lazy">
                         Nosotros
                     </a>
-                    <a class="navbar-brand p-2" href="/ProyectoWeb/User/login.php">
+                    <a class="navbar-brand p-2" href="/User/login.php">
                         <img src="./img/login.svg" width="30" height="30" alt="" loading="lazy">
                         Entrar
                     </a>
