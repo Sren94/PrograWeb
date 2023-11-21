@@ -23,7 +23,7 @@
     </div>
     <div class="row d-flex justify-content-center pb-3">
       <form class="form col-5" method="post" action="../Include_Session/iniciarSesion.php">
-        <h3 class="text-center pt-2">Login</h3>
+        <h3 class="text-center pt-2">Login</h3> 
         <div class="form-group pt-2 pb-2">
           <label for="email">Correo Electronico</label>
           <input type="email" class="form-control" id="Email" name="Email" aria-describedby="emailHelp" placeholder="ejemplo juanperes@hola.com">

@@ -1,4 +1,9 @@
-
+<?php
+session_start();
+if (!$_SESSION['login']) {
+  header('location: login.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +12,7 @@
     <title>Inicio</title>
 </head>
 <body>
+
 <div class="container">
    <div class="row">
     <div class="col p-0">
@@ -34,7 +40,7 @@
   </thead>
   <tbody>
   <?php
-     include '../User/tableNotice.php';
+     include 'tableNotice.php';
     ?>
   </tbody>
 

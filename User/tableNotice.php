@@ -28,8 +28,9 @@
             <td scope="col"><?php echo $key['id'];?></td>
             <td scope="col"><?php echo $key['titulo'] ?></td>
             <td scope="col"><?php echo $key['autor'] ?></td>
-            <td scope="col"><a class="navbar-brand" href="../User/viewNotice.php?id=<?php echo $key['id']; ?>">
+            <td scope="col"><a class="navbar-brand" href="../User/viewNotice.php?id=<?php echo $key['id'];?>">
                     <img src="../img/menu.svg" width="30" height="30" alt="" loading="lazy">
                 </a></td>
         </tr>
-    <?php } ?>
+    <?php } 
+    ?>

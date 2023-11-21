@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +10,8 @@
 <body>
 <link rel="stylesheet" href="/ProyectoWeb/css/header.css">
 </head>
-<?php
-?>
+
 <div class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center">
 <h1 class="display-4 m-2">Ultimas Noticias Web</h1>
-<p>Bienvenido <?php echo $rol?> <?php echo $usr?>:  </p>
+<p>Bienvenido <?php echo $_SESSION['user'];  ?> <?php echo $_SESSION['rol'];  ?></p>
 </div>
