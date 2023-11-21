@@ -27,7 +27,7 @@ if ($encontrado) {
         if ($rol=='usuario') {
            header('location: ../User/homeUser.php');
          }elseif ($rol=='escritor') {
-             # code...
+            header('location: ../Adm2/homeEscritor.php');
          }elseif ($rol=='administrador') {
              # code...
          }else {
