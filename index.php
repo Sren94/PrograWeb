@@ -1,3 +1,10 @@
+<?php
+if (isset($_GET['mensaje'])) {
+    $mensaje = $_GET['mensaje'];
+    echo '<p>' . htmlspecialchars($mensaje) . '</p>';
+    header('location: index.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 

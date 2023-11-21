@@ -22,29 +22,29 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center pb-3">
-            <form class="form col-5">
+            <form class="form col-5" method="post" action="./insertar.php" >
                 <h3 class="text-center pt-2">Registrar</h3>
                 <div class="form row">
                     <div class="col">
                         <label for="Name">Nombre</label>
-                        <input type="text" id="Name" class="form-control" placeholder="Nombre">
+                        <input type="text" id="Name" name="Name" class="form-control" placeholder="Nombre">
                         <span class="error1">debe de ser mayor a 4 letras</span>
                     </div>
                     <div class="col">
                         <label for="LName">Apellidos</label>
-                        <input type="text" class="form-control" id="Lname" placeholder="Apellido">
+                        <input type="text" class="form-control" id="Lname" name="Lname" placeholder="Apellido">
                         <span class="error2">debe de ser mayor a 4</span>
                     </div>
                 </div>
                 <div class="form row">
                     <div class="col">
                         <label for="Email">Correo Electronico</label>
-                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="ejemplo juanperes@hola.com">
+                        <input type="email" class="form-control" id="Email" name="Email" aria-describedby="emailHelp" placeholder="ejemplo juanperes@hola.com">
                         <span class="error3">debe de ser mayor a 6</span>
                         <span class="error4">Correo No valido</span>
                         <br>
                         <label for="Pwd">Contraseña</label>
-                        <input type="password" class="form-control" id="Pwd" placeholder="Ingresa tu contraseña">
+                        <input type="password" class="form-control" id="Pwd" name="Pwd" placeholder="Ingresa tu contraseña">
                         <div class="error5">
                             <ul>
                                 <p>Debe de tener</p>
