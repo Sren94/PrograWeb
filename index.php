@@ -14,14 +14,14 @@
     <div class="col p-0">
     <?php
    
-    include ('../ProyectoWeb/include/head.php');
+    include ('./include/head.php');
     ?>
     </div>
    </div>
    <div class="row">
     <div class="col p-0">
     <?php
-     include '../ProyectoWeb/include/navbar.php';
+     include './include/navbar.php';
     ?>
     </div>
    </div>
@@ -31,7 +31,7 @@
    <div class="row">
     <div class="col p-0">
     <?php
-     include '../ProyectoWeb/include/footer.php';
+     include './include/footer.php';
     ?>
     </div>
    </div>
