@@ -23,7 +23,6 @@ if (!$_SESSION['login']) {
     <div class="col p-0">
 
     <?php
-    
      require_once '../include_Session/navbarInit.php';
     ?>
     </div>
